@@ -1,6 +1,6 @@
 from functools import wraps
 import logging
-from inspect import currentframe, getouterframes, stack
+from inspect import currentframe, getouterframes
 
 
 def log(func):
